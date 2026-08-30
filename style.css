@@ -48,6 +48,7 @@ button { color: inherit; font: inherit; }
 .eyebrow { display: flex; align-items: center; gap: 10px; margin: 0 0 22px; color: var(--purple-bright); font-family: "DM Mono", monospace; font-size: 10px; letter-spacing: 0.11em; }
 .eyebrow-dot, .status-pulse { display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: var(--purple); box-shadow: 0 0 0 4px rgba(156, 123, 255, 0.14), 0 0 18px var(--purple); }
 h1, h2, h3, p { margin-top: 0; }
+.hero-title-nowrap { display: inline-block; white-space: nowrap; }
 h1 { max-width: 620px; margin-bottom: 20px; font-size: clamp(36px, 4.2vw, 60px); font-weight: 700; letter-spacing: 0.02em; line-height: 1.16; white-space: nowrap; }
 .hero-lead { margin-bottom: 20px; color: #ddd9f7; font-size: clamp(22px, 3vw, 32px); font-weight: 600; letter-spacing: 0.04em; line-height: 1.55; }
 .hero-lead em { color: var(--purple-bright); font-style: normal; }
